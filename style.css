@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+:root{
+    --font-family: 'Creepster', cursive;
+    --bg-color:#1B1717;
+    --primary-color: #FF0000;
+}
+
+body{
+    background-color: var(--bg-color);
+    font-family: var(--font-family);
+    color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    margin: 0;
+}
+
+h1{
+    font-size: 9rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+h3{
+    font-size: 3rem;
+    margin-bottom: 4rem;
+}
+
+.mensagem{
+    font-size: 3rem;
+}
+
+.box{
+    border: 2px solid var(--primary-color);
+    display: inline-block;
+    font-size: 6rem;
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    min-width: 200px;
+    min-height: 6rem;
+}
+
+.falar{
+    min-width: 240px;
+    min-height: 2rem;
+    font-family: var(--font-family);
+    margin-top: 2rem;
+    font-size: 2rem;
+    padding: 4px 16px;
+    border-radius: 10px;
+}
